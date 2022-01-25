@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.week{
+  width: 80vw;
+  max-width: 350px;
+  height: 40vw;
+  margin: 5vh auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.weekmain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+
+.weekmain p {
+  font-weight: bold;
+}
+
+
+.triangle{
+  appearance: none;
+  background-color: transparent;
+  border-color: transparent purple;
+  width: 0px;
+  height: 0px;
+  border-top-width: 0.8rem;
+  border-top-style: solid;
+  border-bottom-width: 0.8rem;
+  border-bottom-style: solid;
+  border-left-width: 1.4rem;
+  border-left-style: solid;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.reviewweek {
+  width: 80vw;
+  max-width: 350px;
+  height: 40vw;
+  padding-top : 150px;
+  margin: 5vh auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.review {
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0px;
+  width: 100%;
+}
+
+.reviewcircle {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  margin: 5px;
+  background-color: rgb(221, 221, 221)
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
